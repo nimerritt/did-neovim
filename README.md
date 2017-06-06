@@ -1,5 +1,4 @@
 # did-neovim
-
-[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?style=flat-square)]()
+[![Docker Build Statu](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg?style=flat-square)]()
 
 DevInDocker Neovim base image.
