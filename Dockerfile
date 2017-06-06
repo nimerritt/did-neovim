@@ -1,4 +1,4 @@
-FROM base/archlinux
+FROM nimerritt/did-base
 
 MAINTAINER Nicholas Merritt <nimerritt@gmail.com>
 
