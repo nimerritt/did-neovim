@@ -2,7 +2,9 @@ FROM nimerritt/did-base
 
 MAINTAINER Nicholas Merritt <nimerritt@gmail.com>
 
-RUN apk add --no-cache neovim
+SHELL ["/bin/bash", "-c"]
+
+RUN pacman -Sy --noconfirm neovim
 
 ENV NVIM_PATH="/root/.config/nvim"
 # Copy init.vim

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 plugin () {
   echo "Installing $1"
   git clone https://github.com/$1 $1
