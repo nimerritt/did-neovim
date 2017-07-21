@@ -20,7 +20,7 @@ plugin 'gioele/vim-autoswap'
 plugin 'scrooloose/syntastic'
 plugin 'tpope/vim-fugitive'
 plugin 'airblade/vim-gitgutter'
-
+plugin 'SirVer/ultisnips'
 plugin 'altercation/vim-colors-solarized'
 cat <<- 'EOF' >> "$NVIM_PATH/extra.vim"
   " Pretty colors
