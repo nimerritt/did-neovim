@@ -4,7 +4,12 @@ MAINTAINER Nicholas Merritt <nimerritt@gmail.com>
 
 SHELL ["/bin/bash", "-c"]
 
-RUN pacman -Sy --noconfirm neovim
+RUN pacman -Sy --noconfirm \
+  neovim \
+  python \
+  python-pip
+
+RUN pip install neovim
 
 ENV NVIM_PATH="/root/.config/nvim"
 # Copy init.vim
